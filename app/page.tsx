@@ -20,8 +20,8 @@ export default function Home() {
                 <Image
                     src="/logo.svg"
                     alt="Кофемакс"
-                    width={120}
-                    height={120}
+                    width={180}
+                    height={180}
                     className="mb-8"
                 />
                 <h1 className="text-2xl md:text-4xl font-normal mb-4 font-heading">
