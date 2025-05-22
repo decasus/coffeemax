@@ -1,16 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{ts,tsx}",
-    "./components/**/*.{ts,tsx}"
+    './components/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx}', // если используешь App Router
   ],
   theme: {
     extend: {
-      colors: {
-        brown: "#7C4A31"
-      },
       fontFamily: {
-        heading: ["var(--font-heading)"],
+        heading: ['var(--font-heading)', 'sans-serif'],
       },
     }
   },

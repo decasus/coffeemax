@@ -12,7 +12,6 @@ const geist = Geist({
 const ermilov = localFont({
     variable: "--font-heading",
     src: "../fonts/Ermilov.otf",
-
 });
 
 export const metadata = {
