@@ -24,10 +24,10 @@ export default function Home() {
                     height={120}
                     className="mb-8"
                 />
-                <h1 className="text-2xl md:text-3xl font-normal mb-4 font-heading">
+                <h1 className="text-2xl md:text-4xl font-normal mb-4 font-heading">
                   МЕСТО ПРИТЯЖЕНИЯ <br/> УСПЕШНЫХ ЛЮДЕЙ
                 </h1>
-                <p className="text-xl">Скоро открытие, следи за нами</p>
+                <p className="text-2xl">Скоро открытие, следи за нами</p>
               </div>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function Home() {
 
         {/* Contacts */}
         <section id="contacts" className="py-16 px-8 md:px-16">
-        <h2 className="text-3xl font-black text-[#7C4A31] mb-8">Контакты</h2>
+        <h2 className="text-3xl text-[#7C4A31] mb-8 font-heading">КОНТАКТЫ</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Левый блок: адрес и телефон */}
             <div className="space-y-6 text-black flex flex-col justify-center">
