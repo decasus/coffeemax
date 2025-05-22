@@ -61,16 +61,18 @@ export default function Home() {
                   8 000 000-00-00
                 </Link>
               </div>
+              <h2 className="font-bold text-xl text-[#7C4A31]">Присоединяйся к нам</h2>
               <div className="flex space-x-4">
+
                 <Link href="https://vk.com/cofemaks_yar" target="_blank" rel="noopener">
-                  <Image src="/vk.png" alt="VK" width={32} height={32}/>
+                  <Image src="/vk.png" alt="VK" width={56} height={56}/>
                 </Link>
                 <Link href="https://instagram.com/coffeemax.yar" target="_blank" rel="noopener">
                   <Image
                       src="/instagram.png"
                       alt="Instagram"
-                      width={32}
-                      height={32}
+                      width={56}
+                      height={56}
                   />
                 </Link>
               </div>
@@ -79,7 +81,7 @@ export default function Home() {
             {/* Правый блок: карта */}
             <div>
               <iframe
-                  src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab4beabdf61cc9891b67de0231b3f70a62334b96c7606a00477db3cd139ee8a88&amp;source=constructor"
+                  src="https://maps.google.com/maps?q=Yaroslavl%20Volzhskaya%20naberezhnaya%2043&t=&z=15&ie=UTF8&iwloc=&output=embed"
 
                   loading="lazy"
                   allowFullScreen
