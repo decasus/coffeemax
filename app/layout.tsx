@@ -15,7 +15,7 @@ const ermilov = localFont({
 });
 
 export const metadata = {
-  title: "Кофемакс",
+  title: "Кофемакс - место притяжения успешных людей",
   description: "Место притяжения успешных людей. Скоро открытие!",
 };
 
